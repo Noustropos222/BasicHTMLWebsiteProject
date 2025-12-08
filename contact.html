@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Contact</title>
-        <meta name="description" content="Contact page using only HTML">
-        <meta name="author" content="Esteban López">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <meta name="description" content="Contact page using only HTML">
+    <meta name="author" content="Esteban López">
+</head>
 
-    </head>
-    <body>
-    <table width="100%">
-        <tr>
-            <td><h1>Esteban Lopez</h1></td>
-            <td align="right">
-                <a href="/homepage.html">Home</a> /
-                <a href="/projects.html">projects</a> /
-                <a href="/articles.html">Articles</a> /
-                <a href="/contact.html">Contact</a>
-            </td>
-        </tr>
-    </table>
+<body>
+
+<header>
+    <h1>Esteban Lopez</h1>
+
+    <nav>
+        <ul>
+            <li><a href="/homepage.html">Home</a></li>
+            <li><a href="/projects.html">projects</a></li>
+            <li><a href="/articles.html">Articles</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
     <h1>Contact</h1>
-    Name: <input type="text">
-    Email: <input type="email">
-    Message: <input type="textarea">
-    <button>Submit</button>
-    </body>
+
+    <form>
+        <label>
+            Name:
+            <input type="text">
+        </label>
+        <br>
+
+        <label>
+            Email:
+            <input type="email">
+        </label>
+        <br>
+
+        <label>
+            Message:
+            <input type="textarea">
+        </label>
+        <br>
+
+        <button>Submit</button>
+    </form>
+</main>
+
+</body>
 </html>
